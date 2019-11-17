@@ -1,0 +1,37 @@
+numbers = [10, 5, 7, 2, 1]
+
+for element in numbers:
+    print(element, type(element))
+
+    
+
+numbers = [10, 5, "a7", 2, True]
+
+for element in numbers:
+    print(element, type(element))
+
+
+
+
+    myList = [10, 1, 8, 3, 5]
+total = 0
+
+for i in range(len(myList)):
+    total = total + myList[i]
+
+print(total)
+
+total = 0
+for value in myList:
+    total = total + value
+    
+print(total)
+
+
+
+
+myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+toFind = 5
+
+print(toFind in myList)
+print(myList.index(toFind))
